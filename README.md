@@ -18,6 +18,9 @@ To use this microservice with the provided GUI (see apiLinkGUI.py)
 as they are necessary query parameters.
 
 ------------------------------------------------------
+<img width="573" alt="Screenshot 2023-07-31 at 12 24 58 PM" src="https://github.com/wleejess/cs361_microservice/assets/29618012/8d93d704-3a1e-4ecc-b518-80339be00c08">
+
+
 APIs:
 - Weather app
 parameters = location, days, air quality index.
