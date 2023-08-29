@@ -1,10 +1,10 @@
 # cs361_microservice
 To use this microservice programmatically:
-1. REQUEST data by writing to a "request.txt" file.
-  Please use new lines for each parameter: API, zipcode, y/n air quality information.
-  Example:
-    Weather API
-    92122
+1. REQUEST data by writing to a "request.txt" file.<br>
+  Use new lines for each parameter: API, zipcode, y/n air quality information.<br>
+  Example:<br>
+    Weather API<br>
+    92122<br>
     no
 2. RECEIVE data by reading from "response.txt" file.
   Currently contains a lot of information - recommend keys to access are:
@@ -22,19 +22,19 @@ as they are necessary query parameters.
 
 
 APIs:
-- Weather app
+- Weather app <br>
 parameters = location, days, air quality index.
-API key: d50dc7dd12384f2a80f17340723907
+API key: (Hidden)
 
-- Dictionary api.
+- Dictionary api <br>
 parameters = word
 
 -----------------------------------------------------
 RESPONSES
-Weather App response will be formatted as JSON.
+Weather App response will be formatted as JSON.<br>
 Keys to access: "current" > "temp_c" or "temp_f"
   "precip_mm", "precip_in", "feelslike_c", "feelslike_f", etc.
 
-Dictionary App response will be formatted as JSON.
+Dictionary App response will be formatted as JSON.<br>
 Keys to access: "definition", "word"
 
