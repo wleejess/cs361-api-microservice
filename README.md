@@ -1,4 +1,4 @@
-# cs361_microservice
+# cs361-api-microservice
 A simple microservice used to connect to external APIs. There are two ways to use this: 1) Using the GUI made with Tkinter, or 2) Programmatically via text files.
 
 ------------------------------------------------------
